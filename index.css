@@ -44,6 +44,18 @@ ul{
    justify-content: space-around;
    
 }
+.succes{
+  padding: 300px;
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.other{
+  display: flex;
+  font-size:200px ;
+  animation:moveLeft 2s ease;;
+}
 span{
   color: rgb(255, 208, 0);
 }
@@ -166,4 +178,13 @@ img{width: 250px}
   }
 }
 
-  
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+    
