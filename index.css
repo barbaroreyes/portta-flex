@@ -45,17 +45,16 @@ ul{
    
 }
 .succes{
-  padding: 300px;
-  display: flex;
+display: flex;
 justify-content: center;
 align-items: center;
 
 }
-.other{
+/* .other{
   display: flex;
   font-size:200px ;
   animation:moveLeft 2s ease;;
-}
+} */
 span{
   color: rgb(255, 208, 0);
 }
